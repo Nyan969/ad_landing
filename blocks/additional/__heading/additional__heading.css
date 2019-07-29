@@ -1,0 +1,45 @@
+.additional__heading {
+    position: absolute;
+    margin: 32px 18px 0;
+    font-size: 27px;
+    line-height: 29px;
+    z-index: 1;
+}
+
+@media screen and (max-width : 1024px) {
+
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+        margin: 18px 16px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .additional__heading {
+        font-size: 27px;
+        line-height: 29px;
+        margin: 32px 18px 0;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width : 375px) {
+
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+        margin: 32px 13px 0;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width : 320px) {
+
+    .additional__heading {
+        width: 84%;
+        margin: 32px 21px 0;
+    }
+}

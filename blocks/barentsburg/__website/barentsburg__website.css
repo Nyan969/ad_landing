@@ -1,0 +1,36 @@
+.barentsburg__website {
+    grid-area: website;
+    padding-left: 108px;
+    margin: 47px 50% 0 0;
+}
+
+@media screen and (max-width : 1280px) {
+
+    .barentsburg__website {
+    margin: 47px 40% 0 0;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+
+    .barentsburg__website {
+        padding-left: 0;
+        margin: 47px 92px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .barentsburg__website {
+        margin: 54px 82px 0 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+   
+    .barentsburg__website {
+        width: 60%;
+        padding-left: 0;
+        margin: 21px 0 0;
+    }
+}

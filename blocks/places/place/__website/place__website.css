@@ -1,0 +1,10 @@
+.place__website {
+   position: relative; 
+   grid-area: website;
+}
+
+@media screen and (max-width: 375px) {
+   .place__website {
+      height: 38px;
+   }
+}

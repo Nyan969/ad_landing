@@ -1,0 +1,42 @@
+.comments__container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(382px, 1fr));
+    grid-gap: 19px;
+}
+
+@media screen and (max-width : 1024px) {
+    .comments__container {
+        grid-template-columns: repeat(3, calc((100% - 46px*2)/3));
+        grid-gap: 36px;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+
+    .comments__container {
+        grid-gap: 38px;
+        grid-template-columns: 47.64%;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+
+    .comments__container {
+        padding: 0 4.25%;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width : 320px) {
+
+    .comments__container {
+        grid-template-columns: 100%;
+        padding: 0 5%;
+        grid-gap: 40px;   
+    }
+
+}

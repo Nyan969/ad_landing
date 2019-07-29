@@ -1,0 +1,53 @@
+@import url('__text/content-row__text.css');
+@import url('__text/_bold/content-row__text_bold.css');
+@import url('__text/_main/content-row__text_main.css');
+@import url('__author/content-row__author.css');
+@import url('__date/content-row__date.css');
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    font-weight: normal;
+    margin-bottom: 29px;
+}
+
+.content-row div {
+    margin-left: 18px;
+}
+
+@media screen and (max-width : 1024px) {
+
+    .content-row {
+        margin-bottom: 35px;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+
+    .content-row {
+        flex-direction: column-reverse;
+        margin-bottom: 27px;
+    }
+
+    .content-row div {
+        margin-left: 0px;
+        margin-bottom: 33px;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+
+    .content-row {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .content-row div {
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+}

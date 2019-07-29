@@ -1,0 +1,6 @@
+@import url('_bold/content-row__text_bold.css');
+@import url('_main/content-row__text_main.css');
+
+.content__text {
+    margin: 0;
+}

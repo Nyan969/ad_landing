@@ -1,0 +1,40 @@
+.additional__container {
+    display: grid;
+    grid-template-columns: repeat(4, calc((100% - 16px*3)/4));
+    grid-template-rows: 330px;
+    grid-gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .additional__container {
+        grid-template-columns: repeat(4, calc((100% - 11px*3)/4));
+        grid-gap: 11px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .additional__container {
+        padding: 0 9.7%;
+        grid-template-columns: repeat(2, calc((100% - 16px)/2));
+        grid-gap: 16px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+
+    .additional__container {
+        grid-template-columns: calc(100% - -7px);
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 24px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+
+    .additional__container {
+        padding: 0;
+        grid-template-columns: calc(100% - 2px);
+        grid-gap: 15px;
+    }
+}

@@ -1,0 +1,39 @@
+.video__title {
+    position: absolute;
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: bold;
+    width: 52%;
+    letter-spacing: 0.8px;
+    top: 152px;
+    left: 30px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .video__title {
+        top: 123px;
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__title {
+        top: 104px;
+        left: 24px;
+        font-size: 24px;
+        line-height: 26px;
+        width: 90%;
+    }
+
+    .video__item:last-of-type .video__title {
+        top: 85px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__title {
+        left: 16px;
+        width: 91%;
+    }
+}

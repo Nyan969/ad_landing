@@ -1,0 +1,41 @@
+.content-row__text_main {
+    width: 69.5%;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+}
+
+@media screen and (max-width : 1024px) {
+
+    .content-row__text_main {
+        width: 74.6%;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+
+    .content-row__text_main {
+        width: 100%;
+        margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width : 375px) {
+
+    .content-row__text_main {
+        font-size: 16px;
+        line-height: 27px;
+        margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width : 320px) {
+
+    .content-row__text_main {
+        font-size: 18px;
+        line-height: 30px;
+        margin-right: 0px !important;
+        hyphens: manual;
+    }
+}

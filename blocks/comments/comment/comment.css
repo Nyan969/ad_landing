@@ -1,0 +1,16 @@
+@import url('__author/comment__author.css');
+@import url('__image/comment__image.css');
+@import url('__quote/comment__quote.css');
+
+@media screen and (max-width : 768px) {
+
+    .comment {
+        display: grid;
+        grid-template-areas: "image"
+                             "author"
+                             "quote";
+        justify-items: center;
+        grid-template-columns: 100%;
+    }
+
+}

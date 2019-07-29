@@ -1,0 +1,155 @@
+.content-subtitle {
+    margin: 0 auto 72px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    width: 65%;
+}
+
+.lead .content-subtitle {
+    width: 63%;
+    margin: 0 auto 68px;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.intro .content-subtitle {
+    margin: 0 0 22px;
+    line-height: 37px;
+    text-align: start;
+}
+
+.video .content-subtitle {
+    margin: 0 auto 63px;
+    width: 60%;
+}
+
+.additional .content-subtitle {
+    margin: 0 auto 62px;
+}
+
+.comments .content-subtitle {
+    margin: 0 auto 62px;
+    width: 61%;
+}
+
+.barentsburg .content-subtitle {
+    width: 71%;
+    font-size: 42px;
+    line-height: 60px;
+    margin: 0 0 33px;
+    text-align: start;
+    grid-area: subtitle;
+}
+
+@media screen and (max-width : 1024px) {
+
+    .lead .content-subtitle {
+        width: 69%;
+        margin: 0 auto 68px;
+    }
+
+    .video .content-subtitle {
+        width: 71%;
+    }
+
+    .comments .content-subtitle {
+        width: 77%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .lead .content-subtitle {
+        width: 90%;
+    }
+
+    .intro .content-subtitle {
+        margin: 0 0 7px;
+    }
+
+    .video .content-subtitle {
+        width: 99%;
+        margin: 0 auto 46px;
+    }
+
+    .additional .content-subtitle {
+        width: 80%;
+        margin: 0 auto 47px;
+    }
+
+    .comments .content-subtitle {
+        width: 90%;
+        margin: 0 auto 65px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+
+    .lead .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto 8px;
+    }
+
+    .intro .content-subtitle {
+        line-height: 32px;
+        width: calc(96% - 4.25%*2);
+        margin: 0 0 14px;
+    }
+
+    .video .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto 37px;
+    }
+
+    .additional .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto 43px;
+    }
+
+    .comments .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        width: 100%;
+        margin: 0 auto 44px;
+    }
+
+    .barentsburg .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0px 0 18px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+
+    .lead .content-subtitle {
+        width: 100%;
+        margin: 0 auto 35px;
+    }
+
+    .intro .content-subtitle {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+    .video .content-subtitle {
+        margin: 0 auto 28px;
+    }
+
+    .additional .content-subtitle {
+        width: 100%; 
+    }
+
+    .comments .content-subtitle {
+        margin: 0px auto 32px;
+    }
+
+    .barentsburg .content-subtitle {
+       
+    }
+}

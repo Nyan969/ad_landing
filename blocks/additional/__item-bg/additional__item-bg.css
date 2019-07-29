@@ -1,0 +1,11 @@
+.additional__item-bg {
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .additional__item-bg {
+        border-radius: 7px;
+    }
+}
